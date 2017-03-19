@@ -1,15 +1,19 @@
-node_modules
-dist
-docs
+
 qareport
-.tmp
-.sass-cache
 *.mo
-bower_components
-vendor/
-src/locale/template.pot
-src/assets/images/generated/
 env/
+*.sublime-workspace
+*.sublime-project
+
+# Client
+client/node_modules
+client/dist
+client/docs
+client/.tmp
+client/.sass-cache
+client/app/static/bower_components
+client/bower_components
+client/vendor
 
 
 # Byte-compiled / optimized / DLL files
