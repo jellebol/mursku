@@ -15,6 +15,9 @@ client/app/static/bower_components
 client/bower_components
 client/vendor
 
+# Server
+server/db.sqlite3
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -105,3 +108,7 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# Jetbrains
+.idea
+.workspace
