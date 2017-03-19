@@ -1,3 +1,17 @@
+node_modules
+dist
+docs
+qareport
+.tmp
+.sass-cache
+*.mo
+bower_components
+vendor/
+src/locale/template.pot
+src/assets/images/generated/
+env/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
