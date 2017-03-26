@@ -15,7 +15,11 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from users.views import UserFormView
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+
+    #url(r'^$', UserForm.as_view(), name='home')
+    url(r'^register/$', UserFormView.as_view(), name='register')
 ]
